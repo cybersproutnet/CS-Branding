@@ -1,5 +1,14 @@
 <?php
 /**
+ * CYBERsprout Branding
+ *
+ * @package   cs_branding
+ * @author    Tyler Golberg
+ * @license   GPL-2.0+
+ * @link      https://github.com/cybersproutnet/cs-branding
+ */
+ 
+/*
 Plugin Name: CYBERsprout Branding
 Plugin URI: http://cybersprout.net
 Description: Brand the WP login page and add some security measures
@@ -7,7 +16,7 @@ Version: 1.0.0
 Author: Tyler Golberg
 Author URI: http://cybersprout.net
 License: GPL2
-GitHub Plugin URI: https://github.com/cybersproutnet/cs-branding/
+GitHub Plugin URI: https://github.com/cybersproutnet/cs-branding
 GitHub Branch: master
 */
 
