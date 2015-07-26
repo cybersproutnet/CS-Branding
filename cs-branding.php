@@ -149,6 +149,7 @@ return $avatar_defaults;
 }
 add_filter( 'avatar_defaults', 'newgravatar' );
 
+add_filter('gettext', 'change_howdy', 10, 3);
 function change_howdy($translated, $text, $domain) {
     if (!is_admin() || 'default' != $domain)
         return $translated;
@@ -158,4 +159,3 @@ function change_howdy($translated, $text, $domain) {
 
     return $translated;
 }
-add_filter('gettext', 'change_howdy', 10, 3);
