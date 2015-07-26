@@ -12,7 +12,7 @@
 Plugin Name: CYBERsprout Branding
 Plugin URI: http://cybersprout.net
 Description: Brand the WP login page and add some security measures
-Version: 1.0.0
+Version: 1.1.0
 Author: Tyler Golberg
 Author URI: http://cybersprout.net
 License: GPL2
