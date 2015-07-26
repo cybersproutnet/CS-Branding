@@ -7,7 +7,7 @@ Version: 1.0.0
 Author: Tyler Golberg
 Author URI: http://cybersprout.net
 License: GPL2
-GitHub Plugin URI: https://github.com/cybersproutnet/cs-branding
+GitHub Plugin URI: https://github.com/cybersproutnet/cs-branding/
 GitHub Branch: master
 */
 
