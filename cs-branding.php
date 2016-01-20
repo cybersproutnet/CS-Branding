@@ -12,7 +12,7 @@
 Plugin Name: CYBERsprout Branding
 Plugin URI: http://cybersprout.net
 Description: Brand the WP login page and add some security measures
-Version: 1.1.0
+Version: 1.1.1
 Author: Tyler Golberg
 Author URI: http://cybersprout.net
 License: GPL2
@@ -88,7 +88,7 @@ wp_add_dashboard_widget('custom_help_widget', 'Website Support', 'custom_dashboa
 wp_add_dashboard_widget('custom_resources_widget', 'Helpful Resources', 'custom_dashboard_resources');
 }
 function custom_dashboard_help() {
-echo '<p>Please <a href="mailto:info@cybersprout.net">contact us</a> for the following:</p>
+echo '<p>Please <a href="https://cybersprout.net/support/">submit a support ticket</a> for the following:</p>
 <ul>
 <li><b>Technical Issues</b> - Updates to the platform may cause issues. Please let us know right away if you see something awry.</li>
 <li><b>New User</b> - We\'ll setup a new user with the proper permissions and configuration.</li>
