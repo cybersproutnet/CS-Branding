@@ -77,7 +77,7 @@ function remove_wp_logo( $wp_admin_bar ) {
 
 //Change Footer link in the WP Admin area
 function remove_footer_admin () {
-echo 'Managed by <a href="http://www.cybersprout.net" target="_blank">CYBERsprout</a> | <a href="mailto:info@cybersprout.net" target="_blank">Contact us</a> for support';}
+echo 'Managed by <a href="http://www.cybersprout.net" target="_blank">CYBERsprout</a> | <a href="https://cybersprout.net/support/" target="_blank">Contact us</a> for support';}
 
 add_filter('admin_footer_text', 'remove_footer_admin');
 
@@ -88,7 +88,7 @@ wp_add_dashboard_widget('custom_help_widget', 'Website Support', 'custom_dashboa
 wp_add_dashboard_widget('custom_resources_widget', 'Helpful Resources', 'custom_dashboard_resources');
 }
 function custom_dashboard_help() {
-echo '<p>Please <a href="https://cybersprout.net/support/">submit a support ticket</a> for the following:</p>
+echo '<p>Please <a href="https://cybersprout.net/support/" target="_blank">submit a support ticket</a> for the following:</p>
 <ul>
 <li><b>Technical Issues</b> - Updates to the platform may cause issues. Please let us know right away if you see something awry.</li>
 <li><b>New User</b> - We\'ll setup a new user with the proper permissions and configuration.</li>
