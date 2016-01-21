@@ -12,7 +12,7 @@
 Plugin Name: CYBERsprout Branding
 Plugin URI: http://cybersprout.net
 Description: Brand the WP login page and add some security measures
-Version: 1.1.1
+Version: 1.1.2
 Author: Tyler Golberg
 Author URI: http://cybersprout.net
 License: GPL2
@@ -86,6 +86,7 @@ function my_custom_dashboard_widgets() {
 global $wp_meta_boxes;
 wp_add_dashboard_widget('custom_help_widget', 'Website Support', 'custom_dashboard_help');
 wp_add_dashboard_widget('custom_resources_widget', 'Helpful Resources', 'custom_dashboard_resources');
+wp_add_dashboard_widget('custom_help_widget', 'Helpful Tools', 'custom_dashboard_tools');
 }
 function custom_dashboard_help() {
 echo '<p>Please <a href="https://cybersprout.net/support/" target="_blank">submit a support ticket</a> for the following:</p>
@@ -110,6 +111,15 @@ echo '<p>Check out the following resources for running your website:</p>
 <li><a href="http://cybersprout.net/wordpress-tutorial/free-online-photo-editing-tools/" target="_blank">Free photo editing tools</a></li>
 <li><a href="" target="_blank"></a></li>
 </li></ul>';
+}
+
+function custom_dashboard_help() {
+echo '<ul>
+<li>Photo Editing: <a href="http://www.picmonkey.com" target="_blank">PicMonkey</a></li>
+<li>Graphic Designs: <a href="https://www.canva.com/" target="_blank">Canva</li>
+<li>Image Compression: <a href="http://www.tinypng.com" target="_blank">Tiny PNG</li>
+<li>Social Media Management: <a href="http://www.bufferapp.com" target="_blank">BufferApp</a></li>
+</ul>';
 }
 
 add_action('wp_dashboard_setup', 'my_custom_dashboard_widgets');
